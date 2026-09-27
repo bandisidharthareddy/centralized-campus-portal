@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/auth/login
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "email": "sidhartha@vnrvjiet.in",
+      "password": "password123"
+    }
+order: 1790231888171
